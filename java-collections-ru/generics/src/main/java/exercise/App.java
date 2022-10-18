@@ -1,9 +1,6 @@
 package exercise;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.ArrayList;
+import java.util.*;
 
 // BEGIN
 class App {
@@ -23,14 +20,20 @@ class App {
         System.out.println(result);
     }
 
-    public static <T> List findWhere(List<T> spisok, T slovar) {
-        List<T> books = new ArrayList<>();
-        String y = slovar.toString().replace("{", "").replace("}", "");
+    public static List findWhere(List<? extends Map> spisok, Map<String, String> slovar) {
+        List<Map> books = new ArrayList<>();
+        Set keys = slovar.keySet();
         for (int i = 0; i < spisok.size(); i++) {
-            String x = spisok.get(i).toString().replace("{", "").replace("}", "");
-            if (x.contains(y)){
+            int z = 0;
+            for (var x : keys) {
+                if (spisok.get(i).get(x).equals(slovar.get(x))) {
+                    z++;
+                }
+            }
+            if (z == keys.size()) {
                 books.add(spisok.get(i));
             }
+
         }
         return books;
     }

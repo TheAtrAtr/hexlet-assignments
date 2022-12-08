@@ -6,4 +6,4 @@ COPY /deploy .
 
 RUN gradle installDist
 
-CMD ./deploy/build/install/deploy/bin/deploy
+CMD ./build/install/deploy/bin/deploy

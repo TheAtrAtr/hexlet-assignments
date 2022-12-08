@@ -1,8 +1,8 @@
 FROM gradle:7.4.0-jdk17
 
-WORKDIR /deploy
+WORKDIR /src
 
-COPY /deploy .
+COPY /src .
 
 RUN gradle installDist
 

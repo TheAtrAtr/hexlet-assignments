@@ -1,0 +1,44 @@
+џэт. 16, 2023 12:15:11 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+џэт. 16, 2023 12:15:11 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+џэт. 16, 2023 12:15:11 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+џэт. 16, 2023 12:15:11 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/8.5.69]
+џэт. 16, 2023 12:15:12 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-53422"]
+џэт. 16, 2023 12:15:13 PM exercise.servlet.SessionServlet login
+INFO: lavern.keeling@gmail.com
+џэт. 16, 2023 12:15:13 PM exercise.servlet.SessionServlet login
+INFO: lavern.keeling@gmail.com
+џэт. 16, 2023 12:15:13 PM exercise.servlet.SessionServlet login
+INFO: lavern.keeling@gmail.com
+џэт. 16, 2023 12:15:13 PM exercise.servlet.SessionServlet login
+INFO: lavern.keeling@gmail.com
+џэт. 16, 2023 12:15:13 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-53422"]
+џэт. 16, 2023 12:15:13 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+џэт. 16, 2023 12:15:13 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: When running on Java 9 or later you need to add "--add-opens=java.base/java.io=null" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+џэт. 16, 2023 12:15:13 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesRmiTargets
+WARNING: When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=null" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+џэт. 16, 2023 12:15:13 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-53422"]
+џэт. 16, 2023 12:19:55 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-5000"]
+џэт. 16, 2023 12:19:56 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+џэт. 16, 2023 12:19:56 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+џэт. 16, 2023 12:19:56 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/8.5.69]
+џэт. 16, 2023 12:19:56 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-5000"]
+џэт. 16, 2023 12:24:14 PM exercise.servlet.SessionServlet login
+INFO: atr@atr
+џэт. 16, 2023 12:24:25 PM exercise.servlet.SessionServlet login
+INFO: devin.rosenbaum@hotmail.com
+џэт. 16, 2023 12:25:20 PM exercise.servlet.SessionServlet login
+INFO: 

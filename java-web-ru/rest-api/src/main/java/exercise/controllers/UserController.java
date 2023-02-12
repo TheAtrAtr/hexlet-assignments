@@ -80,9 +80,10 @@ public class UserController implements CrudHandler {
 
     public void delete(Context ctx, String id) {
         // BEGIN
-        String body = ctx.body();
-        User user = DB.json().toBean(User.class, body);
-        user.setId(id);
+        User user = new QUser()
+                .id
+                .equalTo(Integer.parseInt(id))
+                .findOne();
         user.delete();
         // END
     }
